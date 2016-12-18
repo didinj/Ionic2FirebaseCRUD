@@ -24,7 +24,6 @@ export class ContactPage {
   }
 
   editContact(contact){
-    console.log(contact);
     this.navCtrl.push(AddContactPage, {
       key: contact.$key,
       name: contact.name,
